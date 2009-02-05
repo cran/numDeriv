@@ -9,7 +9,8 @@ function at a parameter value.}
     hessian(func, x, method="Richardson", method.args=list(), ...)
 
     \method{hessian}{default}(func, x, method="Richardson",
-        method.args=list(eps=1e-4, d=0.1, r=4, v=2), ...)
+        method.args=list(eps=1e-4, d=0.1,
+      zero.tol=sqrt(.Machine$double.eps/7e-7), r=4, v=2), ...)
 }
 \arguments{
     \item{func}{a function for which the first (vector) argument 
@@ -17,8 +18,8 @@ function at a parameter value.}
     \item{x}{the parameter vector first argument to func.}
     \item{method}{one of \code{"Richardson"} or \code{"simple"} indicating 
     the method to use for the aproximation.}
-    \item{method.args}{arguments passed to method. (Arguments not specified 
-       remain with their default values.)}
+    \item{method.args}{arguments passed to method.  See \code{\link{grad}}. 
+       (Arguments not specified remain with their default values.)}
     \item{...}{an additional arguments passed to \code{func}.}
 }
 \value{An n by n matrix of the Hessian of the function calculated at the 

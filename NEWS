@@ -1,0 +1,19 @@
+            Changes in numDeriv version 2009.2-1
+
+  o argument zero.tol was added to grad, jacobian and genD, and is used to test
+    if parameters are zero in order to determine if eps should be used in place
+    of d.  Previous tests using == did not work for very small values.
+
+  o defaults argument d to grad was 0.0001, but specification made it appear to
+    be 0.1. Specification was changed to make default clear.
+
+  o unnecessary hessian.default argument setting was removed (they are just
+  passed to genD which duplicated the setting).
+
+  o Some documentation links to [stats]numericDeriv mistakenly called 
+     numericalDeriv were fixed.  
+  
+
+                  numDeriv version 2006.4-1
+
+  o  First released version.

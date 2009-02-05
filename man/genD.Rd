@@ -8,7 +8,8 @@
     genD(func, x, method="Richardson",
                    method.args=list(), ...)
     \method{genD}{default}(func, x, method="Richardson",
-      method.args=list(eps=1e-4, d=0.1, r=4, v=2), ...)
+      method.args=list(eps=1e-4, d=0.0001, 
+      zero.tol=sqrt(.Machine$double.eps/7e-7), r=4, v=2), ...)
 }
 \arguments{
     \item{func}{a function for which the first (vector) argument 
@@ -16,8 +17,8 @@
     \item{x}{The parameter vector first argument to \code{func}.}
     \item{method}{one of \code{"Richardson"} or \code{"simple"} indicating 
     the method to use for the aproximation.}
-    \item{method.args}{arguments passed to method. (Arguments not specified 
-       remain with their default values.)}
+    \item{method.args}{arguments passed to method.  See \code{\link{grad}}. 
+       (Arguments not specified remain with their default values.)}
     \item{...}{any additional arguments passed to \code{func}.}
 }
 \value{
