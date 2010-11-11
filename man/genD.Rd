@@ -19,7 +19,8 @@
     the method to use for the aproximation.}
     \item{method.args}{arguments passed to method.  See \code{\link{grad}}. 
        (Arguments not specified remain with their default values.)}
-    \item{...}{any additional arguments passed to \code{func}.}
+    \item{...}{any additional arguments passed to \code{func}.
+          WARNING: None of these should have names matching other arguments of this function.}
 }
 \value{
 A list with elements as follows:

@@ -57,6 +57,7 @@ grad.default <- function(func, x, method="Richardson",
 	 else  a[k,i] <- (func(x + h*(i==seq(n)), ...) - 
 	                  func(x - h*(i==seq(n)), ...))/(2*h[i])
          }
+       if (any(is.na(a[k,]))) stop("function returns NA at ", h," distance from x.")
        h <- h/v     # Reduced h by 1/v.
        }	
    if(show.details)  {

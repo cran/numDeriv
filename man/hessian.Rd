@@ -20,7 +20,8 @@ function at a parameter value.}
     the method to use for the aproximation.}
     \item{method.args}{arguments passed to method.  See \code{\link{grad}}. 
        (Arguments not specified remain with their default values.)}
-    \item{...}{an additional arguments passed to \code{func}.}
+    \item{...}{an additional arguments passed to \code{func}.
+          WARNING: None of these should have names matching other arguments of this function.}
 }
 \value{An n by n matrix of the Hessian of the function calculated at the 
        point \code{x}.}

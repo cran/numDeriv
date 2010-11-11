@@ -18,7 +18,8 @@
     the method to use for the approximation.}
     \item{method.args}{arguments passed to method. (Arguments not specified 
        remain with their default values.)}
-    \item{...}{an additional arguments passed to \code{func}.}
+    \item{...}{an additional arguments passed to \code{func}.
+          WARNING: None of these should have names matching other arguments of this function.}
 }
 \value{A real scalar or vector of the approximated gradient(s).}
 
