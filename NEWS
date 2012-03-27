@@ -8,6 +8,19 @@ Known BUGS
 	a central difference approximation, without any extrapolation. 
  
 
+Changes in numDeriv version 2012.3-1
+
+   o	no real changes, but bumping version for new CRAN suitability check.
+
+Changes in numDeriv version 2011.11-2
+
+   o	fixed genD documentation error for denominator in f" (d^2 rather 
+   	than 2*d noticed by Yilun Wang)
+
+Changes in numDeriv version 2011.11-1
+
+   o	updated maintainer email address.
+
 Changes in numDeriv version 2010.11-1
 
    o	Added warning in the documentation regarding trying to pass arguments

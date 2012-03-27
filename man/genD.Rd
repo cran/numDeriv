@@ -58,10 +58,10 @@ A list with elements as follows:
 
   \deqn{f''_{i}(x) = <f(x_{1},\dots,x_{i}+d,\dots,x_{n}) -
                    2 *f(x_{1},\dots,x_{n}) +
-                    f(x_{1},\dots,x_{i}-d,\dots,x_{n})>/(2*d) }{%
+                    f(x_{1},\dots,x_{i}-d,\dots,x_{n})>/(d^2) }{%
 	f''_{i}(x) = <f(x_{1},\dots,x_{i}+d,\dots,x_{n}) -
                    2 *f(x_{1},\dots,x_{n}) +
-                    f(x_{1},\dots,x_{i}-d,\dots,x_{n})>/(2*d) }	    
+                    f(x_{1},\dots,x_{i}-d,\dots,x_{n})>/(d^2) }	    
 
    The second order derivative with respect to \eqn{x_i, x_j}{x_i, x_j} is 
 

@@ -30,8 +30,6 @@ genD	  to calculate the gradient and second derivative of a
 	  argument.
 }
 
-Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca> and 
- Ravi Varadhan <rvaradhan@jhmi.edu>
 }
 \author{Paul Gilbert, based on work by Xingqiao Liu}
 \references{
