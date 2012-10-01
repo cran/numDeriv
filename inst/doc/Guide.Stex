@@ -15,12 +15,9 @@ library("numDeriv")
 
 \end{Scode}
 
-As of R-2.1.0 the code from the vignette that generates this guide can 
-be loaded into an editor with \emph{edit(vignette("numDeriv"))}.
+The code from the vignette that generates this guide can 
+be loaded into an editor with \emph{edit(vignette("Guide", package="numDeriv"))}.
 This uses the default editor, which can be changed using \emph{options()}.
-Also, it should be possible to view the pdf version of the guide for this 
-package with \emph{print(vignette("numDeriv"))}.
-
 
 Here are some examples of grad.
 

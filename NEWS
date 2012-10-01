@@ -1,12 +1,18 @@
 Known BUGS
 
-   o	the hessian function in numDeriv does not accept method="simple".  Only 
-	"Richardson" is implemented there. 
+   o	the hessian function in numDeriv does not accept method="simple". 
  
    o	When method="Richardson", it does not work when r=1, because of 
 	subscripting issues.  Should fix this such that it does 
 	a central difference approximation, without any extrapolation. 
  
+
+Changes in numDeriv version 2012.9-1
+
+   o	added complex step derivatives (from Ravi Varadhan) and related tests.
+
+   o	changed method.args to an empty list in the default methods, as the real
+   	defaults depend on the approximation, and are documented in details.
 
 Changes in numDeriv version 2012.3-1
 

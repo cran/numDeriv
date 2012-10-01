@@ -8,8 +8,7 @@
     genD(func, x, method="Richardson",
                    method.args=list(), ...)
     \method{genD}{default}(func, x, method="Richardson",
-      method.args=list(eps=1e-4, d=0.0001, 
-      zero.tol=sqrt(.Machine$double.eps/7e-7), r=4, v=2), ...)
+      method.args=list(), ...)
 }
 \arguments{
     \item{func}{a function for which the first (vector) argument 
@@ -38,13 +37,17 @@ A list with elements as follows:
 }
 \details{
    The derivatives are calculated numerically using Richardson improvement.
-   The method "simple" is not supported in this function.)
+   Methods "simple" and "complex" are not supported in this function.
    The "Richardson" method calculates a numerical approximation of the first 
    and second derivatives of \code{func} at the point \code{x}. 
    For a scalar valued function these are the gradient vector and 
    Hessian matrix. (See \code{\link{grad}} and \code{\link{hessian}}.)
    For a vector valued function the first derivative is the Jacobian matrix 
-   (see \code{\link{jacobian}}). See \code{\link{grad}}
+   (see \code{\link{jacobian}}). 
+   For the Richardson method 
+   \code{methods.args=list(eps=1e-4, d=0.0001, zero.tol=sqrt(.Machine$double.eps/7e-7), 
+   r=4, v=2)} is set as the default.
+   See \code{\link{grad}}
    for more details on the Richardson's extrapolation parameters. 
 
    The the first order derivative with respect to \eqn{x_i}{x_i} is 
