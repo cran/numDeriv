@@ -7,6 +7,22 @@ Known BUGS
 	a central difference approximation, without any extrapolation. 
  
 
+Changes in numDeriv version 2014.2-1
+
+   o	added argument 'side' to allow one-sided first derivatives (grad and 
+   	jacobian) for simple and Richardson  methods. 
+
+   o	minor documentation improvements. 
+ 
+
+Changes in numDeriv version 2013.2-1
+
+   o	updated R dependency from 1.8.1 to 2.11.1 because of complex step
+   	derivative dependency on a fix to exponentiation with integers (pointed
+	out by Hans W. Borchers).
+
+   o	added flag in DESCRIPTION to ByteComple.
+
 Changes in numDeriv version 2012.9-1
 
    o	added complex step derivatives (from Ravi Varadhan) and related tests.

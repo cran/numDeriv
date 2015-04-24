@@ -1,0 +1,63 @@
+# This file is distributed under the same license as the R numDeriv package.
+# Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+# Korean translation for R numDeriv package
+# Contributor: Chel Hee Lee <chl948@mail.usask.ca>, 2014.
+# Copyright: 2006-2011, Bank of Canada. 2012-2014, Paul Gilbert
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R numDeriv 2014.2-1\n"
+"Report-Msgid-Bugs-To: http://optimizer.r-forge.r-project.org/\n"
+"POT-Creation-Date: 2014-11-22 15:23\n"
+"PO-Revision-Date: 2014-11-22 15:24-0600\n"
+"Last-Translator: Chel Hee Lee <chl948@mail.usask.ca>\n"
+"Language-Team: Chel Hee Lee<chl948@mail.usask.ca>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Richardson method for hessian assumes a scalar valued function."
+msgstr ""
+
+msgid "method not implemented."
+msgstr ""
+
+msgid "BUG! should not get here."
+msgstr ""
+
+msgid "The current code assumes v is 2 (the default)."
+msgstr ""
+
+msgid "Non-NULL argument 'side' should have the same length as x"
+msgstr ""
+
+msgid "Non-NULL argument 'side' should have values NA, +1, or -1."
+msgstr ""
+
+msgid "grad assumes a scalar valued function."
+msgstr ""
+
+msgid "method 'complex' does not support non-NULL argument 'side'."
+msgstr ""
+
+msgid ""
+"function does not accept complex argument as required by method 'complex'."
+msgstr ""
+
+msgid ""
+"function does not return a complex value as required by method 'complex'."
+msgstr ""
+
+msgid "function returns NA at"
+msgstr ""
+
+msgid "distance from x."
+msgstr ""
+
+msgid "indicated method"
+msgstr ""
+
+msgid "not supported."
+msgstr ""
