@@ -7,6 +7,17 @@ Known BUGS
 	a central difference approximation, without any extrapolation. 
  
 
+Changes in numDeriv version 2016.8-1
+
+   o	simplification of hessian.default() call to jacobian() and grad()
+   	in the case of method 'complex' (pointed out by Andreas Rappold).
+
+   o	added argument 'side=NULL' in the hessian.default() call to jacobian()
+   	and grad() in the case of method 'complex' to ensure proper passing 
+	of ... arguments to the function for which the hessian is being
+	calculated (pointed out by Andreas Rappold).
+
+
 Changes in numDeriv version 2014.2-1
 
    o	added argument 'side' to allow one-sided first derivatives (grad and 

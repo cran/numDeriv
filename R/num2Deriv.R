@@ -14,9 +14,13 @@ hessian.default <- function(func, x, method="Richardson",
    args[names(method.args)] <- method.args
    # the CSD part of this uses eps=.Machine$double.eps
    # but the jacobian is Richardson and uses method.args
-   return(jacobian(func=function(fn, x, ...){grad(func=fn, x=x, 
-           method="complex", method.args=list(eps=.Machine$double.eps), ...)}, 
-         x=x, fn=func, method.args=args, ...))
+   fn <- function(x, ...){
+           grad(func=func, x=x, method="complex", side=NULL,
+	   method.args=list(eps=.Machine$double.eps), ...)
+	   }
+
+   return(jacobian(func=fn, x=x, method="Richardson", side=NULL,
+                    method.args=args, ...))
    } 
  else if(method != "Richardson")  stop("method not implemented.")
 

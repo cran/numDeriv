@@ -53,7 +53,11 @@ function at a parameter value.}
    one evaluation of \code{func} in order to do some error checking before
    calling \code{genD}, so the number of function evaluations will be one more
    than indicated for \code{\link{genD}}.
-}
+
+  The argument \code{side} is not supported for second derivatives and since
+  \dots are passed to \code{func} there may be no error message if it is
+  specified.
+  }
 \seealso{
     \code{\link{jacobian}},
     \code{\link{grad}},
