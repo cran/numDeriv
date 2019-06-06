@@ -1,11 +1,12 @@
-2e5a3aa9875ef4bcb482939565ce88ab *DESCRIPTION
+022eadf593c93a5174c7d2f0fd9a592a *DESCRIPTION
 68a5918eb427271dd79f07d62fce33a7 *NAMESPACE
 57f0f954f57be55d5ebca2eaa03d6894 *NEWS
 30bc245893abd0960083733df3998cd1 *R/num2Deriv.R
 7671b0b77de2d0d960b5382c8aa561fe *R/numDeriv.R
-f560b25a853f00d6ecb718518b0b3a95 *build/vignette.rds
+af67430eeb55f14116484cf8f14078a0 *build/vignette.rds
+c216cb58cd7989e4db1a31e42f9976e9 *inst/doc/Guide.R
 65ba7a8040ac6c9475a6ec23e9c5e3cd *inst/doc/Guide.Stex
-0f547ff19f100d2202432a9b9d92f955 *inst/doc/Guide.pdf
+5edf223d46876fa732fd47671492ecd8 *inst/doc/Guide.pdf
 6f429cff9fd52e47bf6ff11bb78de727 *man/00.numDeriv.Intro.Rd
 4a081c87cbf11c80b9f60ef0becd4056 *man/genD.Rd
 b3d62c76fb5efccb959f0687b7ad378c *man/grad.Rd
